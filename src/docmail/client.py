@@ -48,7 +48,7 @@ import suds.client
 
 from docmail import enums, util
 
-DOCMAIL_WSDL = 'https://www.cfhdocmail.com/BetaAPI2/DMWS.asmx?WSDL'
+DOCMAIL_WSDL = 'https://www.cfhdocmail.com/LiveAPI2/DMWS.asmx?WSDL'
 
 RE_DATETIME = '^(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/](19|20)\d\d[ ]([0-1][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]$'
 PTN_DATETIME = '%d/%m/%Y %H:%M:%S'
